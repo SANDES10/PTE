@@ -8,7 +8,7 @@ files). Build: Vite. Entry HTML: `client/index.html`.
 - **`client/index.html`** — HTML entry, title, Inter font (300–800),
   `<div id="root">`, module script `/src/main.tsx`.
 - **`client/vite.config.ts`** — plugins: `@vitejs/plugin-react`,
-  `@tailwindcss/vite`, `@builder.io/vite-plugin-jsx-loc`; aliases `@` →
+  `@tailwindcss/vite`; aliases `@` →
   `client/src`, `@shared` → `shared/`, `@assets` → `attached_assets`;
   `root: client`, `envDir` = repo root, `outDir: dist/public`.
 - **`client/src/main.tsx`** — creates `QueryClient`; tRPC client via

@@ -30,7 +30,7 @@ sonner, streamdown, superjson, wouter, zod v4; Radix primitives (30+);
 
 **Key devDeps:** typescript 5.9.3, vite 7, vitest 2, drizzle-kit, esbuild,
 tsx, prettier, tailwindcss 4, postcss, autoprefixer,
-`@vitejs/plugin-react`, `@builder.io/vite-plugin-jsx-loc`, `@types/*`.
+`@vitejs/plugin-react`, `@types/*`.
 
 ## `tsconfig.json`
 
@@ -51,8 +51,7 @@ tsx, prettier, tailwindcss 4, postcss, autoprefixer,
 
 ## `vite.config.ts`
 
-- Plugins: `@vitejs/plugin-react`, `@tailwindcss/vite`,
-  `@builder.io/vite-plugin-jsx-loc`.
+- Plugins: `@vitejs/plugin-react`, `@tailwindcss/vite`.
 - Aliases: `@` → `client/src`, `@shared` → `shared/`,
   `@assets` → `attached_assets`.
 - `root: client`, `envDir` = repo root, `outDir: dist/public`,
