@@ -17,7 +17,7 @@ const sections = [
     id: "speaking", label: "Speaking", icon: Mic,
     color: "bg-blue-500", textColor: "text-blue-600",
     borderColor: "border-blue-200", bgLight: "bg-blue-50",
-    description: "5 task types · Oral fluency, pronunciation, content"
+    description: "7 task types · Oral fluency, pronunciation, content"
   },
   {
     id: "writing", label: "Writing", icon: PenLine,
@@ -40,7 +40,7 @@ const sections = [
 ];
 
 // Official PTE Academic task type ordering for each section
-const taskTypeOrder: Record<string, string[]> = {
+const SECTION_TASK_ORDER: Record<string, string[]> = {
   speaking: [
     "read_aloud",
     "repeat_sentence",
@@ -63,6 +63,8 @@ const taskTypeOrder: Record<string, string[]> = {
   ],
   listening: [
     "summarize_spoken_text",
+    "multiple_choice_single_listening",
+    "multiple_choice_multiple_listening",
     "fill_blanks_listening",
     "highlight_correct_summary",
     "write_from_dictation",
@@ -409,7 +411,7 @@ export default function Practice() {
             >
               {Object.entries(groupedByTaskType)
                 .sort(([taskTypeA], [taskTypeB]) => {
-                  const order = taskTypeOrder[activeSection] || [];
+                  const order = SECTION_TASK_ORDER[activeSection] || [];
                   const indexA = order.indexOf(taskTypeA);
                   const indexB = order.indexOf(taskTypeB);
                   return (indexA === -1 ? 999 : indexA) - (indexB === -1 ? 999 : indexB);

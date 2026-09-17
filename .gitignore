@@ -110,3 +110,7 @@ temp/
 .webdev/
 .manus/
 .manus-logs/
+
+# OpenCode / local AI tooling config
+.opencode/
+opencode.json

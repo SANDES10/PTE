@@ -241,52 +241,52 @@
 - [x] Verified getUserAnalytics and getUserMilestones already return null/[] (safe)
 - [x] All 84 tests passing, 0 TypeScript errors
 
-## Phase 12 — Speaking Section: Missing Task Types & Reorder
-- [ ] Research official PTE Speaking section order and rubrics for Respond to a Situation and Summarize Group Discussion
-- [ ] Add respond_to_situation and summarize_group_discussion to taskType enum in schema
-- [ ] Run DB migration for new task types
-- [ ] Seed 10+ questions for Respond to a Situation
-- [ ] Seed 10+ questions for Summarize Group Discussion
-- [ ] Expand existing speaking questions (Read Aloud, Repeat Sentence, Describe Image, Re-tell Lecture, Answer Short Question)
-- [ ] Build UI component for Respond to a Situation (situation prompt + 30s prep + 40s response)
-- [ ] Build UI component for Summarize Group Discussion (audio/transcript + 10s prep + 90s response)
-- [ ] Add AI scoring for Respond to a Situation (content relevance, fluency, pronunciation)
-- [ ] Add AI scoring for Summarize Group Discussion (content coverage, fluency, pronunciation)
-- [ ] Reorder speaking tasks in Practice page to match official PTE exam order
-- [ ] Update PTELayout sidebar to show correct speaking task order
-- [ ] All tests passing, 0 TypeScript errors
+## Phase 12 — Speaking Section: Missing Task Types & Reorder (COMPLETED)
+- [x] Research official PTE Speaking section order and rubrics for Respond to a Situation and Summarize Group Discussion
+- [x] Add respond_to_situation and summarize_group_discussion to task types (handled via varchar taskType; no enum migration needed)
+- [x] Run DB migration for new task types (N/A — varchar taskType requires no migration)
+- [x] Seed 10+ questions for Respond to a Situation (12 seeded)
+- [x] Seed 10+ questions for Summarize Group Discussion (10 seeded)
+- [x] Expand existing speaking questions (Read Aloud, Repeat Sentence, Describe Image, Re-tell Lecture, Answer Short Question)
+- [x] Build UI component for Respond to a Situation (situation prompt + 30s prep + 40s response)
+- [x] Build UI component for Summarize Group Discussion (audio/transcript + 10s prep + 90s response)
+- [x] Add AI scoring for Respond to a Situation (content relevance, fluency, pronunciation)
+- [x] Add AI scoring for Summarize Group Discussion (content coverage, fluency, pronunciation)
+- [x] Reorder speaking tasks in Practice page to match official PTE exam order
+- [x] Update PTELayout sidebar to show correct speaking task order (N/A — sidebar links sections only, not individual tasks)
+- [x] All tests passing, 0 TypeScript errors
 
 ## Phase 13 — Full Task Audit, Fix & AI Efficiency (IN PROGRESS)
-- [ ] Add SECTION_TASK_ORDER map to Practice.tsx for correct official PTE task ordering
-- [ ] Add summarize_group_discussion and respond_to_situation to taskTypeInfo in Practice.tsx
-- [ ] Update speaking section description to show 7 task types
-- [ ] Audit PracticeSession: verify all 20 task types render correctly
-- [ ] Fix any broken task rendering (missing UI, wrong component, wrong timer)
-- [ ] Fix aiScoringRouter to handle new task types (respond_to_situation, summarize_group_discussion)
+- [x] Add SECTION_TASK_ORDER map to Practice.tsx for correct official PTE task ordering
+- [x] Add summarize_group_discussion and respond_to_situation to taskTypeInfo in Practice.tsx
+- [x] Update speaking section description to show 7 task types
+- [x] Audit PracticeSession: verify all 20 task types render correctly
+- [x] Fix any broken task rendering (missing UI, wrong component, wrong timer) (none found — all 20 render correctly)
+- [x] Fix aiScoringRouter to handle new task types (respond_to_situation, summarize_group_discussion)
 - [ ] Optimize AI engines: reduce prompt token count, keep accuracy
-- [ ] Add timeout/fallback: if AI takes >15s, return deterministic score
-- [ ] All tests passing, 0 TypeScript errors
+- [x] Add timeout/fallback: if AI takes >15s, return deterministic score
+- [x] All tests passing, 0 TypeScript errors
 
 
-## Phase 13 — Payment System & Admin Panel (IN PROGRESS)
-- [ ] Set up Stripe integration with webdev_add_feature
-- [ ] Create subscriptions table (id, userId, stripeSubscriptionId, planId, status, currentPeriodStart, currentPeriodEnd, createdAt, canceledAt)
-- [ ] Create payments table (id, userId, stripePaymentIntentId, amount, currency, status, description, createdAt)
-- [ ] Create subscription_plans table (id, name, price, interval, features, maxSessions, storageGB, createdAt)
-- [ ] Add subscription status to users table (subscription_id, plan_tier: free/pro/premium)
-- [ ] Build Stripe webhook handler for payment success/failure/subscription updates
-- [ ] Create admin panel layout with sidebar navigation (Dashboard, Users, Analytics, Billing, Settings)
-- [ ] Build admin dashboard with KPI cards (total users, active subscriptions, revenue, storage used)
-- [ ] Build users management table (list, search, filter by plan, view details, suspend/activate)
-- [ ] Build analytics dashboard (user growth chart, session trends, revenue trends, task type popularity)
-- [ ] Build billing dashboard (subscription list, payment history, revenue breakdown by plan)
-- [ ] Implement adminProcedure for role-based access control
-- [ ] Add admin check middleware to all admin routes
-- [ ] Create pricing page with subscription plans
-- [ ] Add subscription checkout flow (Stripe hosted checkout)
+## Phase 13 — Payment System & Admin Panel (IN PROGRESS — superseded by eSewa/Khalti below)
+- [x] Set up payment integration (superseded: eSewa + Khalti via server/payment/* instead of Stripe)
+- [x] Create subscriptions table (id, userId, gatewaySubscriptionId, planId, status, currentPeriodStart, currentPeriodEnd, createdAt, canceledAt)
+- [x] Create payments table (id, userId, paymentIntentId, amount, currency, status, description, createdAt)
+- [x] Create subscription_plans table (id, name, price, interval, features, maxSessions, storageGB, createdAt)
+- [x] Add subscription status to users table (subscription_id, plan_tier: free/pro/premium)
+- [x] Build webhook handler for payment success/failure/subscription updates (eSewa + Khalti)
+- [x] Create admin panel layout with sidebar navigation (Dashboard, Users, Analytics, Billing, Settings)
+- [x] Build admin dashboard with KPI cards (total users, active subscriptions, revenue, storage used)
+- [x] Build users management table (list, search, filter by plan, view details, suspend/activate)
+- [x] Build analytics dashboard (user growth chart, session trends, revenue trends, task type popularity)
+- [x] Build billing dashboard (subscription list, payment history, revenue breakdown by plan)
+- [x] Implement adminProcedure for role-based access control
+- [x] Add admin check middleware to all admin routes
+- [x] Create pricing page with subscription plans
+- [ ] Add subscription checkout flow (eSewa/Khalti hosted checkout — verify live integration)
 - [ ] Add subscription management page (view current plan, upgrade/downgrade, cancel)
 - [ ] Write admin panel integration tests
-- [ ] All tests passing, 0 TypeScript errors
+- [x] All tests passing, 0 TypeScript errors
 
 
 ## Phase 13 — Payment System & Admin Panel (IN PROGRESS)
@@ -317,9 +317,9 @@
 - [x] Create public pricing page with plan comparison and FAQ
 - [x] Add Pricing route to App.tsx
 - [x] Implement email notification helpers for payment and subscription events
-- [ ] Implement admin procedures for user management (ban, promote, view details)
-- [ ] Implement admin procedures for analytics queries
-- [ ] Implement subscription auto-renewal background job
+- [ ] Implement admin procedures for user management (ban, promote, view details) (ban = toggleUserBan done; promote/view missing)
+- [x] Implement admin procedures for analytics queries
+- [ ] Implement subscription auto-renewal background job (no scheduler exists — email reminders only)
 - [ ] Add subscription management page for users
 - [ ] Create subscription plan management UI for admins
 
@@ -351,9 +351,9 @@
 - [x] Implement getRevenueByGateway() for payment analytics
 - [x] Implement getUserActivityLogs() for activity tracking
 - [x] Update systemAdminRouter to use real database queries instead of mock data
-- [ ] Update SystemAdminPanel UI to fetch and display real data from backend
-- [ ] Add empty state handling when no data exists
-- [ ] Add loading states and error handling in UI
+- [x] Update SystemAdminPanel UI to fetch and display real data from backend
+- [x] Add empty state handling when no data exists
+- [x] Add loading states and error handling in UI
 
 
 ## Phase 18 — Final Enhancements Complete
