@@ -1,0 +1,73 @@
+# 📋 Frontend Daily Development Log (PTE Academic Preparation Platform)
+
+This log tracks the step-by-step modular development of the Frontend architecture (`client/`) from Day 1 to Day 10.
+
+---
+
+## 📅 Daily Changelog & Milestones
+
+### 🟢 Day 1: Frontend Architecture, Theme System & Core Routing
+- **Scope:** Root client setup, Vite configuration, Tailwind CSS setup, design tokens, and application routing shell.
+- **Key Modules:**
+  - `client/src/index.css`: Global design tokens, APEUni color variables, glassmorphism utilities, and accessibility focus states.
+  - `client/src/main.tsx`: React DOM root mounting, QueryClient provider setup.
+  - `client/src/App.tsx`: App shell, ErrorBoundary, ThemeProvider, and client route mapping.
+  - `client/src/_core/`: Core internal API and hooks configuration.
+- **Status:** ✅ Completed
+
+### 🟢 Day 2: Navigation & Layout Architecture
+- **Scope:** Responsive navigation sidebar, header, user profile dropdown, and container layouts.
+- **Key Modules:**
+  - `client/src/components/PTELayout.tsx`: Responsive navigation drawer, dynamic SRS revision counter badge, user dropdown, mobile menu sheet.
+  - `client/src/components/DashboardLayout.tsx`: Resizable collapsible sidebar system, PTE menu links, profile dropdown.
+  - `client/src/components/ErrorBoundary.tsx`: Resilient error fallback screen with reload and dashboard navigation actions.
+  - `client/src/components/AdminLayout.tsx`: Dedicated administration interface layout.
+- **Status:** ✅ Completed
+
+### 🟢 Day 3: Landing Page & Authentication
+- **Scope:** APEUni-style marketing landing page, hero section, interactive PTE task preview, AI features showcase, stats counters, user testimonials, and Supabase OAuth / Magic link auth workflow.
+- **Key Modules:**
+  - `client/src/pages/Home.tsx`: Rich animated hero section, Pearson PTE 4-skill breakdown, real-time score analytics preview, interactive task cards, animated stats counters, student testimonials, and CTA section.
+  - `client/src/pages/Login.tsx`: Supabase OAuth Google Sign-In and passwordless email Magic Link authentication interface.
+  - `client/src/pages/AuthCallback.tsx`: Seamless Supabase session exchange and backend app token verification handler.
+- **Status:** ✅ Completed
+
+### 🟢 Day 4: Dashboard & Performance Overview
+- **Scope:** Student Dashboard, Target Score Gauges, Study Streaks, Skill category metrics (Speaking, Writing, Reading, Listening), Circular score charts, and Quick practice triggers.
+- **Key Modules:**
+  - `client/src/pages/Dashboard.tsx`: Comprehensive student overview dashboard with target score gauges, study streaks, skill category metrics, AI recommendation cards, and quick task launch widgets.
+  - `client/src/components/AnimatedCounter.tsx`: Smooth animated number counter component for target score gauges and practice statistics.
+  - `client/src/components/SkeletonLoader.tsx`: Responsive pulse skeleton loader states for asynchronous dashboard data fetching.
+- **Status:** ✅ Completed
+
+### 🟢 Day 5: Speaking Practice Section & Task Modules
+- **Scope:** PTE Speaking & Practice Hub, collapsible task category cards, skill filters, and interactive speaking task components.
+- **Key Modules:**
+  - `client/src/pages/Practice.tsx`: Comprehensive PTE Practice Hub with 20 PTE Academic task categories, difficulty badges, target score indicators, search filtering, and progress tracking.
+  - `client/src/components/SpeakingTask.tsx`: Interactive speaking task interface with question prompt rendering, audio playback wave animation, model answer preview, and practice session trigger.
+- **Status:** ✅ Completed
+
+### 🟢 Day 6: Practice Session & Audio Stream Engine
+- **Scope:** Real-time audio stream recording, Web Speech API live transcript, circular countdown timers, visual volume level indicator, and interactive response submit workflow.
+- **Key Modules:**
+  - `client/src/pages/PracticeSession.tsx`: Complete PTE exam practice interface supporting audio recording, live Web Speech API recognition, volume visualizer, dynamic audio playback, and real-time AI scoring trigger.
+  - `client/src/components/AnimatedProgressBar.tsx`: Animated circular countdown timers, preparation/recording progress rings, and visual state indicators for speaking & listening tasks.
+- **Status:** ✅ Completed
+
+### 🟢 Day 7: AI Scoring & Real-time Feedback UI
+- **Scope:** Detailed AI score evaluation breakdown (Pronunciation, Fluency, Content) and word highlighting.
+- **Key Modules:** AI scoring components, instant feedback breakdown, fluency/pronunciation metrics.
+- **Status:** ✅ Completed
+
+### 🟢 Day 8: Full Mock Test Exam Interface & Defense Documentation
+- **Scope:** External Examiner & Viva Defense Master Guide, Project Overview, and exam defense documentation.
+- **Key Modules:** `PROJECT_OVERVIEW.md`, `FRONTEND_DEFENSE_MASTER_GUIDE.md`, `EXAMINER_VIVA_GUIDE.md`.
+- **Status:** ✅ Completed
+
+### ⏳ Day 9: Performance Analytics & AI Study Assistant (Upcoming)
+- **Scope:** Historical progress charts, AI study chatbot, study plans, and resources library.
+- **Target Files:** `pages/Analytics.tsx`, `components/AIChatBox.tsx`, `pages/Resources.tsx`.
+
+### ⏳ Day 10: User Profile, Pricing Tiers & Administration (Upcoming)
+- **Scope:** Profile settings, Subscription plans, Admin analytics, and system administration panels.
+- **Target Files:** `pages/Profile.tsx`, `pages/Pricing.tsx`, `pages/AdminDashboard.tsx`, `pages/SystemAdminPanel.tsx`.
