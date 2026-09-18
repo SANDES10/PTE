@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1772107866292,
+      "tag": "0000_melted_eddie_brock",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1772107997253,
+      "tag": "0001_stale_warhawk",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1772111777822,
+      "tag": "0002_closed_scourge",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1773279791819,
+      "tag": "0003_chemical_the_stranger",
+      "breakpoints": true
+    }
+  ]
+}

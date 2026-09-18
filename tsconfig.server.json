@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "allowImportingTsExtensions": false,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "strict": false
+  },
+  "include": ["api/**/*", "server/**/*", "shared/**/*", "drizzle/**/*"]
+}
