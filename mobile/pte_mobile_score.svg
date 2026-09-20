@@ -1,0 +1,88 @@
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="390" height="844" rx="44" fill="#F8FAFC"/>
+
+  <!-- Status Bar -->
+  <text x="32" y="38" fill="#0F172A" font-family="Inter, sans-serif" font-size="14" font-weight="700">9:41</text>
+  <rect x="145" y="14" width="100" height="24" rx="12" fill="#0F172A"/>
+  <rect x="342" y="28" width="20" height="11" rx="3" stroke="#0F172A" stroke-width="1.5" fill="none"/>
+  <rect x="344" y="30" width="14" height="7" rx="1.5" fill="#0F172A"/>
+
+  <!-- Header -->
+  <rect x="20" y="58" width="36" height="36" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="38" y="81" text-anchor="middle" fill="#0F172A" font-family="Inter, sans-serif" font-size="16" font-weight="700">‹</text>
+  <text x="195" y="81" text-anchor="middle" fill="#0F172A" font-family="Inter, sans-serif" font-size="16" font-weight="700">AI Scoring Result</text>
+  <rect x="334" y="58" width="36" height="36" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="352" y="80" text-anchor="middle" font-size="14">📤</text>
+
+  <!-- Main Score Dial Card -->
+  <rect x="20" y="106" width="350" height="170" rx="20" fill="#0F172A"/>
+  
+  <circle cx="95" cy="191" r="50" stroke="#1E293B" stroke-width="8" fill="none"/>
+  <circle cx="95" cy="191" r="50" stroke="#00B2B4" stroke-width="8" stroke-dasharray="314" stroke-dashoffset="40" stroke-linecap="round" fill="none"/>
+  <text x="95" y="195" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="28" font-weight="800">84</text>
+  <text x="95" y="214" text-anchor="middle" fill="#00B2B4" font-family="Inter, sans-serif" font-size="10" font-weight="700">OUT OF 90</text>
+
+  <text x="168" y="152" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="17" font-weight="700">Superior Level 🎉</text>
+  <text x="168" y="174" fill="#00B2B4" font-family="Inter, sans-serif" font-size="12" font-weight="600">✓ Target 79+ Achieved</text>
+  <text x="168" y="200" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11">Equivalent to IELTS 8.0</text>
+  <text x="168" y="218" fill="#94A3B8" font-family="Inter, sans-serif" font-size="11">Australian PR Eligible</text>
+
+  <!-- Enabling Skills Breakdown Card -->
+  <rect x="20" y="290" width="350" height="236" rx="18" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="40" y="322" fill="#0F172A" font-family="Inter, sans-serif" font-size="15" font-weight="700">Enabling Skills</text>
+
+  <!-- Skill 1: Pronunciation -->
+  <text x="40" y="354" fill="#334155" font-family="Inter, sans-serif" font-size="13" font-weight="600">Pronunciation</text>
+  <text x="350" y="354" text-anchor="end" fill="#00B2B4" font-family="Inter, sans-serif" font-size="13" font-weight="700">86 / 90</text>
+  <rect x="40" y="364" width="310" height="7" rx="3.5" fill="#E2E8F0"/>
+  <rect x="40" y="364" width="296" height="7" rx="3.5" fill="#00B2B4"/>
+
+  <!-- Skill 2: Oral Fluency -->
+  <text x="40" y="400" fill="#334155" font-family="Inter, sans-serif" font-size="13" font-weight="600">Oral Fluency</text>
+  <text x="350" y="400" text-anchor="end" fill="#10B981" font-family="Inter, sans-serif" font-size="13" font-weight="700">84 / 90</text>
+  <rect x="40" y="410" width="310" height="7" rx="3.5" fill="#E2E8F0"/>
+  <rect x="40" y="410" width="289" height="7" rx="3.5" fill="#10B981"/>
+
+  <!-- Skill 3: Content & Accuracy -->
+  <text x="40" y="446" fill="#334155" font-family="Inter, sans-serif" font-size="13" font-weight="600">Content Accuracy</text>
+  <text x="350" y="446" text-anchor="end" fill="#10B981" font-family="Inter, sans-serif" font-size="13" font-weight="700">90 / 90</text>
+  <rect x="40" y="456" width="310" height="7" rx="3.5" fill="#E2E8F0"/>
+  <rect x="40" y="456" width="310" height="7" rx="3.5" fill="#10B981"/>
+
+  <!-- Skill 4: Pause Analytics -->
+  <text x="40" y="492" fill="#334155" font-family="Inter, sans-serif" font-size="13" font-weight="600">Pacing &amp; Rhythm</text>
+  <text x="350" y="492" text-anchor="end" fill="#F59E0B" font-family="Inter, sans-serif" font-size="13" font-weight="700">76 / 90</text>
+  <rect x="40" y="502" width="310" height="7" rx="3.5" fill="#E2E8F0"/>
+  <rect x="40" y="502" width="262" height="7" rx="3.5" fill="#F59E0B"/>
+
+  <!-- Word-by-Word Feedback Card -->
+  <rect x="20" y="540" width="350" height="136" rx="18" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="40" y="570" fill="#0F172A" font-family="Inter, sans-serif" font-size="14" font-weight="700">Word-by-Word Pronunciation</text>
+  
+  <rect x="40" y="586" width="60" height="24" rx="6" fill="#DCFCE7"/>
+  <text x="70" y="602" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="11" font-weight="600">Artificial</text>
+
+  <rect x="106" y="586" width="76" height="24" rx="6" fill="#DCFCE7"/>
+  <text x="144" y="602" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="11" font-weight="600">intelligence</text>
+
+  <rect x="188" y="586" width="28" height="24" rx="6" fill="#DCFCE7"/>
+  <text x="202" y="602" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="11" font-weight="600">is</text>
+
+  <rect x="222" y="586" width="56" height="24" rx="6" fill="#FEF3C7"/>
+  <text x="250" y="602" text-anchor="middle" fill="#B45309" font-family="Inter, sans-serif" font-size="11" font-weight="600">rapidly</text>
+
+  <rect x="284" y="586" width="76" height="24" rx="6" fill="#DCFCE7"/>
+  <text x="322" y="602" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="11" font-weight="600">transforming</text>
+
+  <text x="40" y="645" fill="#64748B" font-family="Inter, sans-serif" font-size="11">Tip: Practice clear stress on "rapidly" (/ˈræp.ɪd.li/).</text>
+
+  <!-- Bottom Buttons -->
+  <rect x="20" y="694" width="168" height="50" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="104" y="725" text-anchor="middle" fill="#0F172A" font-family="Inter, sans-serif" font-size="14" font-weight="700">🔄 Retry</text>
+
+  <rect x="202" y="694" width="168" height="50" rx="14" fill="#00B2B4"/>
+  <text x="286" y="725" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="700">Next Question →</text>
+
+  <!-- Home Indicator -->
+  <rect x="135" y="828" width="120" height="5" rx="2.5" fill="#0F172A"/>
+</svg>

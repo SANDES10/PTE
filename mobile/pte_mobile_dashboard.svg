@@ -1,0 +1,109 @@
+<svg width="390" height="844" viewBox="0 0 390 844" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Device Frame Background -->
+  <rect width="390" height="844" rx="44" fill="#F8FAFC"/>
+
+  <!-- Status Bar (iOS style) -->
+  <text x="32" y="38" fill="#0F172A" font-family="Inter, sans-serif" font-size="14" font-weight="700">9:41</text>
+  <rect x="145" y="14" width="100" height="24" rx="12" fill="#0F172A"/>
+  <!-- Icons -->
+  <circle cx="330" cy="34" r="3" fill="#0F172A"/>
+  <rect x="342" y="28" width="20" height="11" rx="3" stroke="#0F172A" stroke-width="1.5" fill="none"/>
+  <rect x="344" y="30" width="14" height="7" rx="1.5" fill="#0F172A"/>
+
+  <!-- App Header -->
+  <circle cx="42" cy="80" r="22" fill="#00B2B4"/>
+  <text x="42" y="86" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="700">SD</text>
+  
+  <text x="76" y="74" fill="#64748B" font-family="Inter, sans-serif" font-size="12">Welcome back,</text>
+  <text x="76" y="93" fill="#0F172A" font-family="Inter, sans-serif" font-size="17" font-weight="800">Sandesh Dahal</text>
+
+  <rect x="290" y="66" width="76" height="28" rx="14" fill="#FEF3C7"/>
+  <text x="328" y="84" text-anchor="middle" fill="#D97706" font-family="Inter, sans-serif" font-size="12" font-weight="700">🔥 14 Days</text>
+
+  <!-- Target Score Hero Card -->
+  <rect x="20" y="120" width="350" height="135" rx="18" fill="#0F172A"/>
+  <text x="40" y="152" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12" font-weight="600">PTE ACADEMIC TARGET</text>
+  <text x="40" y="186" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="28" font-weight="800">79+ <tspan font-size="14" fill="#00B2B4" font-weight="600">Superior</tspan></text>
+  <text x="40" y="210" fill="#94A3B8" font-family="Inter, sans-serif" font-size="12">Current Readiness: 82 Avg Score</text>
+
+  <!-- Radial Progress Ring in Card -->
+  <circle cx="310" cy="187" r="32" stroke="#1E293B" stroke-width="6" fill="none"/>
+  <circle cx="310" cy="187" r="32" stroke="#00B2B4" stroke-width="6" stroke-dasharray="201" stroke-dashoffset="35" stroke-linecap="round" fill="none"/>
+  <text x="310" y="192" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="15" font-weight="800">91%</text>
+
+  <!-- Section Title -->
+  <text x="20" y="284" fill="#0F172A" font-family="Inter, sans-serif" font-size="16" font-weight="800">Practice Modules</text>
+  <text x="370" y="284" text-anchor="end" fill="#00B2B4" font-family="Inter, sans-serif" font-size="13" font-weight="600">View All</text>
+
+  <!-- 4 Module Grid -->
+  <!-- Speaking -->
+  <rect x="20" y="302" width="168" height="110" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="36" y="318" width="36" height="36" rx="10" fill="#E0F7FA"/>
+  <text x="54" y="342" text-anchor="middle" font-size="18">🎙️</text>
+  <text x="36" y="378" fill="#0F172A" font-family="Inter, sans-serif" font-size="15" font-weight="700">Speaking</text>
+  <text x="36" y="396" fill="#64748B" font-family="Inter, sans-serif" font-size="11">5 Tasks • 342 Qs</text>
+
+  <!-- Writing -->
+  <rect x="202" y="302" width="168" height="110" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="218" y="318" width="36" height="36" rx="10" fill="#F3E8FF"/>
+  <text x="236" y="342" text-anchor="middle" font-size="18">✍️</text>
+  <text x="218" y="378" fill="#0F172A" font-family="Inter, sans-serif" font-size="15" font-weight="700">Writing</text>
+  <text x="218" y="396" fill="#64748B" font-family="Inter, sans-serif" font-size="11">2 Tasks • 120 Qs</text>
+
+  <!-- Reading -->
+  <rect x="20" y="424" width="168" height="110" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="36" y="440" width="36" height="36" rx="10" fill="#DCFCE7"/>
+  <text x="54" y="464" text-anchor="middle" font-size="18">📖</text>
+  <text x="36" y="500" fill="#0F172A" font-family="Inter, sans-serif" font-size="15" font-weight="700">Reading</text>
+  <text x="36" y="518" fill="#64748B" font-family="Inter, sans-serif" font-size="11">5 Tasks • 210 Qs</text>
+
+  <!-- Listening -->
+  <rect x="202" y="424" width="168" height="110" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="218" y="440" width="36" height="36" rx="10" fill="#FFEDD5"/>
+  <text x="236" y="464" text-anchor="middle" font-size="18">🎧</text>
+  <text x="218" y="500" fill="#0F172A" font-family="Inter, sans-serif" font-size="15" font-weight="700">Listening</text>
+  <text x="218" y="518" fill="#64748B" font-family="Inter, sans-serif" font-size="11">8 Tasks • 280 Qs</text>
+
+  <!-- Quick Action Banner -->
+  <rect x="20" y="550" width="350" height="96" rx="16" fill="#E0F7FA" stroke="#B2EBF2" stroke-width="1"/>
+  <text x="40" y="582" fill="#006064" font-family="Inter, sans-serif" font-size="15" font-weight="700">AI Read Aloud Drill 🚀</text>
+  <text x="40" y="602" fill="#00838F" font-family="Inter, sans-serif" font-size="12">Practice 10 high-frequency exam questions</text>
+  <rect x="40" y="614" width="110" height="24" rx="12" fill="#00B2B4"/>
+  <text x="95" y="630" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="700">Start Drill →</text>
+
+  <!-- Full Mock Test Card -->
+  <rect x="20" y="658" width="350" height="74" rx="16" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="56" cy="695" r="20" fill="#FEE2E2"/>
+  <text x="56" y="701" text-anchor="middle" font-size="16">⏱️</text>
+  <text x="88" y="688" fill="#0F172A" font-family="Inter, sans-serif" font-size="14" font-weight="700">Pearson Full Mock Test #05</text>
+  <text x="88" y="708" fill="#64748B" font-family="Inter, sans-serif" font-size="11">2 hrs • Scored by Pearson AI Model</text>
+  <text x="350" y="700" text-anchor="end" fill="#00B2B4" font-family="Inter, sans-serif" font-size="18" font-weight="700">›</text>
+
+  <!-- Bottom Tab Bar -->
+  <rect y="756" width="390" height="88" fill="#FFFFFF"/>
+  <line x1="0" y1="756" x2="390" y2="756" stroke="#E2E8F0" stroke-width="1"/>
+
+  <!-- Tab 1 Active: Home -->
+  <circle cx="54" cy="784" r="14" fill="#E0F7FA"/>
+  <text x="54" y="789" text-anchor="middle" font-size="13">🏠</text>
+  <text x="54" y="806" text-anchor="middle" fill="#00B2B4" font-family="Inter, sans-serif" font-size="10" font-weight="700">Home</text>
+
+  <!-- Tab 2: Practice -->
+  <text x="122" y="788" text-anchor="middle" font-size="16">📚</text>
+  <text x="122" y="806" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="10" font-weight="500">Practice</text>
+
+  <!-- Tab 3: Mock Test -->
+  <text x="195" y="788" text-anchor="middle" font-size="16">📝</text>
+  <text x="195" y="806" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="10" font-weight="500">Mock Test</text>
+
+  <!-- Tab 4: Analytics -->
+  <text x="268" y="788" text-anchor="middle" font-size="16">📊</text>
+  <text x="268" y="806" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="10" font-weight="500">Analytics</text>
+
+  <!-- Tab 5: Profile -->
+  <text x="336" y="788" text-anchor="middle" font-size="16">👤</text>
+  <text x="336" y="806" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="10" font-weight="500">Profile</text>
+
+  <!-- Home Indicator Bar -->
+  <rect x="135" y="828" width="120" height="5" rx="2.5" fill="#0F172A"/>
+</svg>

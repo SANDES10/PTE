@@ -1,0 +1,82 @@
+<svg width="1440" height="1200" viewBox="0 0 1440 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1440" height="1200" fill="#FFFFFF"/>
+
+  <!-- Top Navbar -->
+  <rect width="1440" height="80" fill="#FFFFFF"/>
+  <line x1="0" y1="80" x2="1440" y2="80" stroke="#F1F5F9" stroke-width="1"/>
+  
+  <rect x="80" y="22" width="36" height="36" rx="8" fill="#26C6DA"/>
+  <path d="M92 34L98 40L106 30" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="128" y="46" fill="#0F172A" font-family="Inter, sans-serif" font-size="22" font-weight="800">PTEMaster</text>
+
+  <!-- Nav Links -->
+  <text x="480" y="46" fill="#334155" font-family="Inter, sans-serif" font-size="15" font-weight="500">Practice Modules</text>
+  <text x="640" y="46" fill="#334155" font-family="Inter, sans-serif" font-size="15" font-weight="500">AI Scoring Engine</text>
+  <text x="800" y="46" fill="#334155" font-family="Inter, sans-serif" font-size="15" font-weight="500">Mock Tests</text>
+  <text x="920" y="46" fill="#334155" font-family="Inter, sans-serif" font-size="15" font-weight="500">Pricing</text>
+
+  <!-- Login &amp; CTA Buttons -->
+  <rect x="1140" y="20" width="90" height="40" rx="8" fill="#F8FAFC"/>
+  <text x="1185" y="45" text-anchor="middle" fill="#0F172A" font-family="Inter, sans-serif" font-size="14" font-weight="600">Log In</text>
+
+  <rect x="1245" y="20" width="120" height="40" rx="8" fill="#26C6DA"/>
+  <text x="1305" y="45" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="14" font-weight="600">Start Free →</text>
+
+  <!-- Hero Section -->
+  <!-- Badge -->
+  <rect x="570" y="140" width="300" height="36" rx="18" fill="#E0F7FA"/>
+  <circle cx="588" cy="158" r="4" fill="#00838F"/>
+  <text x="725" y="163" text-anchor="middle" fill="#00838F" font-family="Inter, sans-serif" font-size="13" font-weight="700">⚡ Official 2026 Pearson AI Scoring Model</text>
+
+  <!-- Headline -->
+  <text x="720" y="230" text-anchor="middle" fill="#0F172A" font-family="Inter, sans-serif" font-size="46" font-weight="800">Master PTE Academic with</text>
+  <text x="720" y="285" text-anchor="middle" fill="#00ACC1" font-family="Inter, sans-serif" font-size="46" font-weight="800">Real-Time AI Speech Scoring</text>
+
+  <!-- Subtitle -->
+  <text x="720" y="340" text-anchor="middle" fill="#64748B" font-family="Inter, sans-serif" font-size="18" font-weight="400">Instant pronunciation breakdown, Pearson-standard mock tests, and smart personalized</text>
+  <text x="720" y="370" text-anchor="middle" fill="#64748B" font-family="Inter, sans-serif" font-size="18" font-weight="400">study plans to achieve your 79+ target score.</text>
+
+  <!-- CTA Buttons -->
+  <rect x="530" y="420" width="180" height="52" rx="10" fill="#26C6DA"/>
+  <text x="620" y="452" text-anchor="middle" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="16" font-weight="700">Practice for Free</text>
+
+  <rect x="730" y="420" width="180" height="52" rx="10" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="820" y="452" text-anchor="middle" fill="#0F172A" font-family="Inter, sans-serif" font-size="16" font-weight="600">Take Mock Test ▶</text>
+
+  <!-- 3 Feature Highlights Cards -->
+  <!-- Card 1 -->
+  <rect x="120" y="540" width="370" height="220" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="150" y="570" width="48" height="48" rx="12" fill="#E0F7FA"/>
+  <text x="174" y="601" text-anchor="middle" fill="#00838F" font-family="Inter, sans-serif" font-size="20">🎙️</text>
+  <text x="150" y="650" fill="#0F172A" font-family="Inter, sans-serif" font-size="18" font-weight="700">Pearson AI Speech Engine</text>
+  <text x="150" y="680" fill="#64748B" font-family="Inter, sans-serif" font-size="14">Word-by-word pronunciation accuracy, oral fluency detection, and pause analytics.</text>
+
+  <!-- Card 2 -->
+  <rect x="535" y="540" width="370" height="220" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="565" y="570" width="48" height="48" rx="12" fill="#FEF3C7"/>
+  <text x="589" y="601" text-anchor="middle" fill="#D97706" font-family="Inter, sans-serif" font-size="20">📊</text>
+  <text x="565" y="650" fill="#0F172A" font-family="Inter, sans-serif" font-size="18" font-weight="700">Full Scored Mock Tests</text>
+  <text x="565" y="680" fill="#64748B" font-family="Inter, sans-serif" font-size="14">Simulate official PTE test conditions with section timers and comprehensive reports.</text>
+
+  <!-- Card 3 -->
+  <rect x="950" y="540" width="370" height="220" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="980" y="570" width="48" height="48" rx="12" fill="#DCFCE7"/>
+  <text x="1004" y="601" text-anchor="middle" fill="#15803D" font-family="Inter, sans-serif" font-size="20">🎯</text>
+  <text x="980" y="650" fill="#0F172A" font-family="Inter, sans-serif" font-size="18" font-weight="700">Personalized AI Study Coach</text>
+  <text x="980" y="680" fill="#64748B" font-family="Inter, sans-serif" font-size="14">Auto-detect your weak question types and get daily custom revision sets.</text>
+
+  <!-- Stats Banner -->
+  <rect x="120" y="810" width="1200" height="140" rx="16" fill="#0F172A"/>
+  <text x="270" y="870" text-anchor="middle" fill="#26C6DA" font-family="Inter, sans-serif" font-size="36" font-weight="800">50,000+</text>
+  <text x="270" y="900" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="14">Active Students</text>
+
+  <text x="570" y="870" text-anchor="middle" fill="#26C6DA" font-family="Inter, sans-serif" font-size="36" font-weight="800">94.8%</text>
+  <text x="570" y="900" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="14">Target Score Success Rate</text>
+
+  <text x="870" y="870" text-anchor="middle" fill="#26C6DA" font-family="Inter, sans-serif" font-size="36" font-weight="800">10,000+</text>
+  <text x="870" y="900" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="14">Real Exam Questions</text>
+
+  <text x="1170" y="870" text-anchor="middle" fill="#26C6DA" font-family="Inter, sans-serif" font-size="36" font-weight="800">24/7</text>
+  <text x="1170" y="900" text-anchor="middle" fill="#94A3B8" font-family="Inter, sans-serif" font-size="14">Instant AI Scoring</text>
+</svg>
