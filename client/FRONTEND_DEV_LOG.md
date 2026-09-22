@@ -15,9 +15,14 @@ This log tracks the step-by-step modular development of the Frontend architectur
   - `client/src/_core/`: Core internal API and hooks configuration.
 - **Status:** ✅ Completed
 
-### ⏳ Day 2: Navigation & Layout Architecture (Upcoming)
+### 🟢 Day 2: Navigation & Layout Architecture
 - **Scope:** Responsive navigation sidebar, header, user profile dropdown, and container layouts.
-- **Target Files:** `PTELayout.tsx`, `DashboardLayout.tsx`, `ErrorBoundary.tsx`, UI primitives.
+- **Key Modules:**
+  - `client/src/components/PTELayout.tsx`: Responsive navigation drawer, dynamic SRS revision counter badge, user dropdown, mobile menu sheet.
+  - `client/src/components/DashboardLayout.tsx`: Resizable collapsible sidebar system, PTE menu links, profile dropdown.
+  - `client/src/components/ErrorBoundary.tsx`: Resilient error fallback screen with reload and dashboard navigation actions.
+  - `client/src/components/AdminLayout.tsx`: Dedicated administration interface layout.
+- **Status:** ✅ Completed
 
 ### ⏳ Day 3: Landing Page & Authentication (Upcoming)
 - **Scope:** Marketing landing page, Hero section, Feature highlights, and Login/Registration flow.

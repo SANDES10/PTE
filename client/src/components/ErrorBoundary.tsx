@@ -39,17 +39,29 @@ class ErrorBoundary extends Component<Props, State> {
               </pre>
             </div>
 
-            <button
-              onClick={() => window.location.reload()}
-              className={cn(
-                "flex items-center gap-2 px-4 py-2 rounded-lg",
-                "bg-primary text-primary-foreground",
-                "hover:opacity-90 cursor-pointer"
-              )}
-            >
-              <RotateCcw size={16} />
-              Reload Page
-            </button>
+            <div className="flex items-center gap-3">
+              <button
+                onClick={() => window.location.reload()}
+                className={cn(
+                  "flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-medium",
+                  "bg-primary text-primary-foreground shadow-sm",
+                  "hover:bg-primary/90 transition-all cursor-pointer"
+                )}
+              >
+                <RotateCcw size={16} />
+                Reload Page
+              </button>
+              <button
+                onClick={() => { window.location.href = "/dashboard"; }}
+                className={cn(
+                  "flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-medium",
+                  "bg-secondary text-secondary-foreground border border-border",
+                  "hover:bg-secondary/80 transition-all cursor-pointer"
+                )}
+              >
+                Return to Dashboard
+              </button>
+            </div>
           </div>
         </div>
       );
