@@ -4,6 +4,7 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { Suspense } from "react";
+import PTELayout from "./components/PTELayout";
 
 function PageLoader() {
   return (
@@ -16,9 +17,11 @@ function PageLoader() {
 function Router() {
   return (
     <Suspense fallback={<PageLoader />}>
-      <Switch>
-        <Route path="/" component={() => <div className="p-8 text-center font-semibold text-lg">Welcome to PTEMaster Platform</div>} />
-      </Switch>
+      <PTELayout>
+        <Switch>
+          <Route path="/" component={() => <div className="p-8 font-semibold">PTEMaster Main Workspace</div>} />
+        </Switch>
+      </PTELayout>
     </Suspense>
   );
 }
