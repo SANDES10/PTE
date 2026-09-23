@@ -24,9 +24,13 @@ This log tracks the step-by-step modular development of the Frontend architectur
   - `client/src/components/AdminLayout.tsx`: Dedicated administration interface layout.
 - **Status:** ✅ Completed
 
-### ⏳ Day 3: Landing Page & Authentication (Upcoming)
-- **Scope:** Marketing landing page, Hero section, Feature highlights, and Login/Registration flow.
-- **Target Files:** `pages/Home.tsx`, `pages/Login.tsx`, `pages/AuthCallback.tsx`.
+### 🟢 Day 3: Landing Page & Authentication
+- **Scope:** APEUni-style marketing landing page, hero section, interactive PTE task preview, AI features showcase, stats counters, user testimonials, and Supabase OAuth / Magic link auth workflow.
+- **Key Modules:**
+  - `client/src/pages/Home.tsx`: Rich animated hero section, Pearson PTE 4-skill breakdown, real-time score analytics preview, interactive task cards, animated stats counters, student testimonials, and CTA section.
+  - `client/src/pages/Login.tsx`: Supabase OAuth Google Sign-In and passwordless email Magic Link authentication interface.
+  - `client/src/pages/AuthCallback.tsx`: Seamless Supabase session exchange and backend app token verification handler.
+- **Status:** ✅ Completed
 
 ### ⏳ Day 4: Dashboard & Performance Overview (Upcoming)
 - **Scope:** Skill category metrics (Speaking, Writing, Reading, Listening), Circular score charts, and Quick practice triggers.
