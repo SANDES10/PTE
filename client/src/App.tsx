@@ -4,12 +4,14 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { Suspense } from "react";
-import PTELayout from "./components/PTELayout";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import AuthCallback from "./pages/AuthCallback";
 
 function PageLoader() {
   return (
     <div className="min-h-screen bg-background flex items-center justify-center">
-      <p className="text-muted-foreground text-sm font-medium">Loading PTEMaster...</p>
+      <p className="text-muted-foreground text-sm font-medium">Loading...</p>
     </div>
   );
 }
@@ -17,11 +19,11 @@ function PageLoader() {
 function Router() {
   return (
     <Suspense fallback={<PageLoader />}>
-      <PTELayout>
-        <Switch>
-          <Route path="/" component={() => <div className="p-8 font-semibold">PTEMaster Main Workspace</div>} />
-        </Switch>
-      </PTELayout>
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/login" component={Login} />
+        <Route path="/auth/callback" component={AuthCallback} />
+      </Switch>
     </Suspense>
   );
 }
