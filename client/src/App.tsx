@@ -3,10 +3,12 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
-import { Suspense } from "react";
+import { lazy, Suspense } from "react";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import AuthCallback from "./pages/AuthCallback";
+
+const Dashboard = lazy(() => import("./pages/Dashboard"));
 
 function PageLoader() {
   return (
@@ -23,6 +25,7 @@ function Router() {
         <Route path="/" component={Home} />
         <Route path="/login" component={Login} />
         <Route path="/auth/callback" component={AuthCallback} />
+        <Route path="/dashboard" component={Dashboard} />
       </Switch>
     </Suspense>
   );
