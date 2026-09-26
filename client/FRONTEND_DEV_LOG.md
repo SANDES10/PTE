@@ -40,9 +40,12 @@ This log tracks the step-by-step modular development of the Frontend architectur
   - `client/src/components/SkeletonLoader.tsx`: Responsive pulse skeleton loader states for asynchronous dashboard data fetching.
 - **Status:** ✅ Completed
 
-### ⏳ Day 5: Speaking Practice Section (Upcoming)
-- **Scope:** Read Aloud, Repeat Sentence, Describe Image interactive task layout with audio recording visualizer.
-- **Target Files:** `components/SpeakingTask.tsx`, `pages/Practice.tsx`.
+### 🟢 Day 5: Speaking Practice Section & Task Modules
+- **Scope:** PTE Speaking & Practice Hub, collapsible task category cards, skill filters, and interactive speaking task components.
+- **Key Modules:**
+  - `client/src/pages/Practice.tsx`: Comprehensive PTE Practice Hub with 20 PTE Academic task categories, difficulty badges, target score indicators, search filtering, and progress tracking.
+  - `client/src/components/SpeakingTask.tsx`: Interactive speaking task interface with question prompt rendering, audio playback wave animation, model answer preview, and practice session trigger.
+- **Status:** ✅ Completed
 
 ### ⏳ Day 6: Practice Session & Audio Stream Engine (Upcoming)
 - **Scope:** Real-time audio recording, countdown timers, and prompt playback controls.
