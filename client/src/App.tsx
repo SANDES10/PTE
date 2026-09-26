@@ -9,6 +9,7 @@ import Login from "./pages/Login";
 import AuthCallback from "./pages/AuthCallback";
 
 const Dashboard = lazy(() => import("./pages/Dashboard"));
+const Practice = lazy(() => import("./pages/Practice"));
 
 function PageLoader() {
   return (
@@ -26,6 +27,8 @@ function Router() {
         <Route path="/login" component={Login} />
         <Route path="/auth/callback" component={AuthCallback} />
         <Route path="/dashboard" component={Dashboard} />
+        <Route path="/practice" component={Practice} />
+        <Route path="/practice/:section" component={Practice} />
       </Switch>
     </Suspense>
   );
