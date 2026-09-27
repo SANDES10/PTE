@@ -47,9 +47,12 @@ This log tracks the step-by-step modular development of the Frontend architectur
   - `client/src/components/SpeakingTask.tsx`: Interactive speaking task interface with question prompt rendering, audio playback wave animation, model answer preview, and practice session trigger.
 - **Status:** ✅ Completed
 
-### ⏳ Day 6: Practice Session & Audio Stream Engine (Upcoming)
-- **Scope:** Real-time audio recording, countdown timers, and prompt playback controls.
-- **Target Files:** `pages/PracticeSession.tsx`, `components/AnimatedProgressBar.tsx`.
+### 🟢 Day 6: Practice Session & Audio Stream Engine
+- **Scope:** Real-time audio stream recording, Web Speech API live transcript, circular countdown timers, visual volume level indicator, and interactive response submit workflow.
+- **Key Modules:**
+  - `client/src/pages/PracticeSession.tsx`: Complete PTE exam practice interface supporting audio recording, live Web Speech API recognition, volume visualizer, dynamic audio playback, and real-time AI scoring trigger.
+  - `client/src/components/AnimatedProgressBar.tsx`: Animated circular countdown timers, preparation/recording progress rings, and visual state indicators for speaking & listening tasks.
+- **Status:** ✅ Completed
 
 ### ⏳ Day 7: AI Scoring & Real-time Feedback UI (Upcoming)
 - **Scope:** Detailed AI score evaluation breakdown (Pronunciation, Fluency, Content) and word highlighting.
