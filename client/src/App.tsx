@@ -11,6 +11,7 @@ import AuthCallback from "./pages/AuthCallback";
 const Dashboard = lazy(() => import("./pages/Dashboard"));
 const Practice = lazy(() => import("./pages/Practice"));
 const PracticeSession = lazy(() => import("./pages/PracticeSession"));
+const ScoreReport = lazy(() => import("./pages/ScoreReport"));
 
 function PageLoader() {
   return (
@@ -31,6 +32,7 @@ function Router() {
         <Route path="/practice" component={Practice} />
         <Route path="/practice/:section" component={Practice} />
         <Route path="/session/:sessionId" component={PracticeSession} />
+        <Route path="/score-report/:sessionId" component={ScoreReport} />
       </Switch>
     </Suspense>
   );
