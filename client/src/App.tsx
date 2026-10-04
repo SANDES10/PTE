@@ -13,6 +13,11 @@ const Practice = lazy(() => import("./pages/Practice"));
 const PracticeSession = lazy(() => import("./pages/PracticeSession"));
 const MockTest = lazy(() => import("./pages/MockTest"));
 const ScoreReport = lazy(() => import("./pages/ScoreReport"));
+const Analytics = lazy(() => import("./pages/Analytics"));
+const LearningModes = lazy(() => import("./pages/LearningModes"));
+const CoachingPlan = lazy(() => import("./pages/CoachingPlan"));
+const RevisionMode = lazy(() => import("./pages/RevisionMode"));
+const Resources = lazy(() => import("./pages/Resources"));
 
 function PageLoader() {
   return (
@@ -35,6 +40,11 @@ function Router() {
         <Route path="/session/:sessionId" component={PracticeSession} />
         <Route path="/mock-test" component={MockTest} />
         <Route path="/score-report/:sessionId" component={ScoreReport} />
+        <Route path="/analytics" component={Analytics} />
+        <Route path="/learning-modes" component={LearningModes} />
+        <Route path="/coaching-plan" component={CoachingPlan} />
+        <Route path="/revision" component={RevisionMode} />
+        <Route path="/resources" component={Resources} />
       </Switch>
     </Suspense>
   );
